@@ -1,0 +1,12 @@
+
+
+@mixin Header($headerClass, $headerHeight, $logoClass, $logoPosition, $navbarClass,$navbarPosition, $dropdownClass, $dropDown:false, $socialClass, $social:false,) {
+    width: 100%;
+    height: 25px;
+    #{$headerClass}{
+        width: 100%;
+        height: $headerHeight;
+        display: flex;
+
+    }
+}
